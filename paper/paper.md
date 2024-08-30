@@ -10,7 +10,7 @@ authors:
   - name: Marlon Aldair Arciniega Sanchez
     orcid: 0000-0000-0000-0000
     affiliation: 1
-  - name: Toyofumi Fujiwara
+  - name: Atsuko Yamaguchi
     orcid: 0000-0000-0000-0000
     affiliation: 2
   - name: Surasak Sangkhathat
@@ -22,7 +22,7 @@ authors:
   - name: Orion Buske
     orcid: 0000-0000-0000-0000
     affiliation: 5
-  - name: Atsuko Yamaguchi
+  - name: Toyofumi Fujiwara
     orcid: 0000-0000-0000-0000
     affiliation: 6
 affiliations:
