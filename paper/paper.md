@@ -24,7 +24,7 @@ group: HPO suggest group
 git_url: https://github.com/biohackathon-japan/bh24-hpo-suggest
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+authors_short: "First Author \\emph{et al.}"
 ---
 
 
