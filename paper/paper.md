@@ -1,13 +1,13 @@
 ---
-title: 'BioHackEU23 report: Template for the very long title'
-title_short: 'BioHackEU23 #26: unknown chemical substances'
+title: 'A Tool for Suggesting Co-Occurring Phenotypes Using Human Phenotype Ontology'
+title_short: 'A Tool for Suggesting Co-Occurring Phenotypes Using Human Phenotype Ontology'
 tags:
   - HPO term recommender
   - co-occurrence analysis
   - phenotype
   - rare disease
 authors:
-  - name: 
+  - name: First Author
     orcid: 0000-0000-0000-0000
     affiliation: 1
 affiliations:
@@ -24,7 +24,7 @@ group: HPO suggest group
 git_url: https://github.com/biohackathon-japan/bh24-hpo-suggest
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Marlon Aldair Arciniega Sanchez \emph{et al.}
+authors_short: First Author \emph{et al.}
 ---
 
 
