@@ -7,35 +7,12 @@ tags:
   - phenotype
   - rare disease
 authors:
-  - name: Marlon Aldair Arciniega Sanchez
+  - name: 
     orcid: 0000-0000-0000-0000
     affiliation: 1
-  - name: Atsuko Yamaguchi
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
-  - name: Surasak Sangkhathat
-    orcid: 0000-0000-0000-0000
-    affiliation: 3
-  - name: Maxat Kulmanov
-    orcid: 0000-0000-0000-0000
-    affiliation: 4
-  - name: Orion Buske
-    orcid: 0000-0000-0000-0000
-    affiliation: 5
-  - name: Toyofumi Fujiwara
-    orcid: 0000-0000-0000-0000
-    affiliation: 6
 affiliations:
   - name: First Affiliation
     index: 1
-  - name: Second Affiliation
-    index: 2
-  - name: Second Affiliation
-    index: 3
-  - name: Second Affiliation
-    index: 4
-  - name: Second Affiliation
-    index: 5
 date: 31 August 2023
 cito-bibliography: paper.bib
 event: BH24
