@@ -1,6 +1,6 @@
 ---
-title: 'BioHackathon2024 report: HPO Suggest'
-title_short: 'BH2024: HPO Suggest'
+title: 'BioHackathon2024 Report: A Tool for Recommending Human Phenotype Ontology Terms for Deep Phenotyping Based on Statistical Data'
+title_short: 'BH2024 Report: HPO Term Recommender'
 tags:
   - HPO term recommender
   - co-occurrence analysis
