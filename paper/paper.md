@@ -1,6 +1,6 @@
 ---
-title: 'A Tool for Suggesting Co-Occurring Phenotypes Using Human Phenotype Ontology'
-title_short: 'A Tool for Suggesting Phenotypes'
+title: 'BioHackathon2024 report: HPO Suggest'
+title_short: 'BH2024: HPO Suggest'
 tags:
   - HPO term recommender
   - co-occurrence analysis
@@ -31,8 +31,11 @@ authors_short: First Author \emph{et al.}
 # Introduction
 
 The Human Phenotype Ontology (HPO) has become an indispensable resource for researchers and clinicians in the field of rare diseases. Since its introduction in 2008, HPO has grown to include a standardized vocabulary of phenotypic abnormalities associated with over 8,000 diseases. This comprehensive and well-defined set of terms has facilitated deep phenotyping, allowing for more accurate and detailed descriptions of clinical abnormalities. As a result, HPO has become the de facto standard for patient phenotyping in rare diseases, widely adopted by researchers, clinicians, informaticians, and patient registry systems globally.
+
 HPO's hierarchical organization and interoperability with other ontologies have significantly enhanced its utility in computational tools. By using HPO for creating patient profiles, patient repositories such as PhenomeCentral and IRUD, both participants in the Matchmaker Exchange project, facilitate the precise description and comparison of clinical features across patients. PubCaseFinder, a phenotype-driven differential diagnosis tool, leverages HPO to generate ranked lists of rare diseases by comparing patient phenotypes with known disease profiles. Similarly, LIRICAL utilizes HPO terms to identify potential disease-causing variants from whole-exome or whole-genome sequencing data. These systems underscore the critical role of HPO in modern medical research and diagnostics.
+
 Despite the HPO’s success, one of the ongoing challenges in its application is the effective identification of co-occurring phenotypic term. The ability to identify and suggest related phenotypic terms not only helps in creating a more complete patient profile but also enhances the accuracy of computational diagnostic tools that rely on phenotype-based comparisons.
+
 To address this challenge, we developed a new tool designed to suggest related HPO terms by conducting statistical analysis of previously entered data in PubCaseFinder and Human Phenotype Ontology annotations. This tool leverages the vast amount of phenotypic data already available, providing users with informed suggestions when entering new HPO terms. By offering statistically informed suggestions for related HPO terms, our tool facilitates more accurate and comprehensive deep phenotyping. This, in turn, can lead to more precise creating patient profiles and diagnoses, ultimately contributing to better patient outcomes.
 
 
