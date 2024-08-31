@@ -7,16 +7,27 @@ tags:
   - phenotype
   - rare disease
 authors:
-  - name: First Author
+  - name: Marlon Aldair Arciniega Sanchez
+    orcid: 0000-0001-5050-2509
     affiliation: 1
-  - name: Last Author
+  - name: Atsuko Yamaguchi
     orcid: 0000-0001-5050-2509
     affiliation: 2
+  - name: Orion Buske
+    orcid: 0000-0001-5050-2509
+    affiliation: 3
+  - name: Toyofumi Fujiwara
+    orcid: 0000-0001-5050-2509
+    affiliation: 4
 affiliations:
   - name: xxx
     index: 1
-  - name: xxxx
+  - name: Tokyo City University, Tokyo, Japan
     index: 2
+  - name: PhenoTips, Toronto, Canada
+    index: 3
+  - name: Database Center for Life Science, Joint Support-Center for Data Science Research, Research Organization of Information and Systems, Chiba, Japan
+    index: 4
 date: 31 August 2024
 cito-bibliography: paper.bib
 event: BH24
