@@ -8,11 +8,15 @@ tags:
   - rare disease
 authors:
   - name: First Author
-    orcid: 0000-0000-0000-0000
     affiliation: 1
+  - name: Last Author
+    orcid: 0000-0001-5050-2509
+    affiliation: 2
 affiliations:
-  - name: First Affiliation
+  - name: xxx
     index: 1
+  - name: xxxx
+    index: 2
 date: 31 August 2024
 cito-bibliography: paper.bib
 event: BH24
