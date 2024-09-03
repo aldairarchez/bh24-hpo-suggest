@@ -71,8 +71,7 @@ Please keep sections to a maximum of only two levels.
 Please keep sections to a maximum of only two levels.
 
 ## Evaluation
-
-Please keep sections to a maximum of only two levels.
+![Method analysis image](./method_analysis.png)
 
 
 # Result
