@@ -8,7 +8,7 @@ tags:
   - rare disease
 authors:
   - name: Marlon Aldair Arciniega Sanchez
-    orcid: 0000-0001-5050-2509
+    orcid: 0009-0005-1835-1399
     affiliation: 1
   - name: Atsuko Yamaguchi
     orcid: 0000-0001-5050-2509
@@ -60,9 +60,12 @@ To address this challenge, we developed a new tool designed to recommend HPO ter
 
 # Method
 
+
 This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
 
 ## Data Preprocessing
+To eliminate biases of overrepresented HPO terms in the PubCaseFinder queries, we eliminate duplicated lines and lines that were complete prefixes of other lines, which would indicate that they were lines written by the same user while creating an adequate query for them. The step of user-curated HPO terms is what we want to optimize by generating a suggestion tool for the PubCaseFinder browser.
+
 
 Please keep sections to a maximum of only two levels.
 
