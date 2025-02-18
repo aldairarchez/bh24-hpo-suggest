@@ -8,7 +8,7 @@ pip install gensim
 # step 4️⃣: Use the Model for Predictions
 
 # Output example
-|-|
+
 |[('HP:0001363', 0.87), ('HP:0000194', 0.84), ('HP:0002650', 0.82)]|
 |-|
 
