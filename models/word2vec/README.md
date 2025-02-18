@@ -8,7 +8,9 @@ pip install gensim
 # step 4️⃣: Use the Model for Predictions
 
 # Output example
-[('HP:0001363', 0.87), ('HP:0000194', 0.84), ('HP:0002650', 0.82)]
+|-|
+|[('HP:0001363', 0.87), ('HP:0000194', 0.84), ('HP:0002650', 0.82)]|
+|-|
 
 # 5️⃣ Optional: Fine-Tune Parameters
 vector_size=100 → Adjusts embedding size. Higher values capture more info but require more data.
