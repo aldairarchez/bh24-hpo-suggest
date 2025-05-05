@@ -3,6 +3,7 @@
 python3 -m venv hpo_eval_env
 . hpo_eval_env/bin/activate
 pip install gensim pandas
+# pip install scikit-learn
 ```
 # Step 2: 1 install gensim
 ```
