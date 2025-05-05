@@ -13,13 +13,14 @@ pip install gensim
 Running the training script [train_model.py](https://github.com/aldairarchez/bh24-hpo-suggest/blob/main/models/word2vec/codes/train_model.py)
 ```
 python ./scripts/train_model.py ./Data/training_data1.txt hpo_word2vec.model
+# python ./scripts/train_model.py ./Data/training_data2.txt hpo_word2vec.model
+# python ./scripts/train_model.py ./Data/training_data3.txt hpo_word2vec.model
+
 ```
 # step 4️⃣: Use the Model for Predictions
 runing the evaluation script [evaluate_model.py](https://github.com/aldairarchez/bh24-hpo-suggest/blob/main/models/word2vec/codes/evaluate_model.py)
 ```
-python ./scripts/evaluate_model.py hpo_word2vec.model ./Data/training_data1.txt
 python ./scripts/evaluate_model.py hpo_word2vec.model ./Data/test_data.txt
-python ./scripts/evaluate_model.py hpo_word2vec.model ./Data/training_data2.txt
 ```
 # Output example
 
