@@ -67,12 +67,12 @@ Word2Vec(
 
 ## Parameter Tuning History
 
-| Version | Key Changes | k=1 Improvement | k=3 Improvement | Notable Effects |
-|---------|-------------|-----------------|-----------------|-----------------|
-| Initial | Baseline (vector_size=100, window=5) | - | - | Established starting point |
-| v2 | Increased window=7, epochs=50 | +15% n=0 | +20% n=0 | Better context capture |
-| v3 | Added hs=1, negative=5 | +8% overall | +12% overall | Improved rare term handling |
-| v4 | Adjusted vector_size=115, sample=5e-5 | Mixed results | +5% n=1-3 | Better term separation |
-| Final | Frequency-aware training, window=7, ns_exponent=0.65 | +22% n=0 | +18% n=1 | Best overall performance |
+| Version | Key Changes                           | k=1 Improvement | k=3 Improvement | Notable Effects               |
+|---------|---------------------------------------|-----------------|-----------------|--------------------------------|
+| Initial | Baseline (vector_size=100, window=5)  | -               | -               | Established starting point     |
+| v2      | Increased window=7, epochs=50         | +15% n=0        | +20% n=0        | Better context capture         |
+| v3      | Added hs=1, negative=5                | +8% overall     | +12% overall    | Improved rare term handling    |
+| v4      | Adjusted vector_size=115, sample=5e-5 | Mixed results   | +5% n=1-3       | Better term separation         |
+| Final   | Frequency-aware training, window=7, ns_exponent=0.65 | +22% n=0 | +18% n=1 | Best overall performance |
 
 
