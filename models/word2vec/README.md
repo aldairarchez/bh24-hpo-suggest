@@ -17,14 +17,14 @@ python ./scripts/train_model.py ./Data/training_data1.txt hpo_word2vec.model
 # python ./scripts/train_model.py ./Data/training_data2.txt hpo_word2vec.model
 # python ./scripts/train_model.py ./Data/training_data3.txt hpo_word2vec.model
 
-python ./scripts/train_combined.py ./Data/training_data1.txt hpo_word2vec.model
+python ./scripts/train_model_optimized.py ./Data/training_data1.txt hpo_word2vec.model
 
 ```
 # step 4️⃣: Use the Model for Predictions
 runing the evaluation script [evaluate_model.py](https://github.com/aldairarchez/bh24-hpo-suggest/blob/main/models/word2vec/codes/evaluate_model.py)
 ```
 python ./scripts/evaluate_model.py hpo_word2vec.model ./Data/test_data.txt
-python ./scripts/evaluate_hybrid.py hpo_word2vec.model ./Data/test_data.txt
+# this will not longer be used python ./scripts/evaluate_hybrid.py hpo_word2vec.model ./Data/test_data.txt
 ```
 # Output example
 
@@ -74,5 +74,6 @@ Word2Vec(
 | v3      | Added hs=1, negative=5                | +8% overall     | +12% overall    | Improved rare term handling    |
 | v4      | Adjusted vector_size=115, sample=5e-5 | Mixed results   | +5% n=1-3       | Better term separation         |
 | Final   | Frequency-aware training, window=7, ns_exponent=0.65 | +22% n=0 | +18% n=1 | Best overall performance |
+|-|-|-|-|-|
 
 
