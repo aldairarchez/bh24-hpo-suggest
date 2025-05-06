@@ -67,15 +67,15 @@ Word2Vec(
 )
 ```
 
-## Parameter Tuning History
+# HPO Term Prediction - Parameter Tuning History
 
-| Version | Key Changes                           | k=1 Improvement | k=3 Improvement | Notable Effects               |
-|---------|---------------------------------------|-----------------|-----------------|--------------------------------|
-| Initial | Baseline (vector_size=100, window=5)  | -               | -               | Established starting point     |
-| v2      | Increased window=7, epochs=50         | +15% n=0        | +20% n=0        | Better context capture         |
-| v3      | Added hs=1, negative=5                | +8% overall     | +12% overall    | Improved rare term handling    |
-| v4      | Adjusted vector_size=115, sample=5e-5 | Mixed results   | +5% n=1-3       | Better term separation         |
-| Final   | Frequency-aware training, window=7, ns_exponent=0.65 | +22% n=0 | +18% n=1 | Best overall performance |
+| Version | Key Parameters | Training Snippet | k=1 Δ | k=3 Δ | Key Improvement |
+|---------|----------------|------------------|-------|-------|-----------------|
+| **v1** | `size=100, window=5` | `Word2Vec(size=100, window=5)` | - | - | Baseline |
+| **v2** | `window=7, epochs=50` | `Word2Vec(window=7, epochs=50)` | +15% | +20% | Better context capture |
+| **v3** | `hs=1, negative=5` | `Word2Vec(hs=1, negative=5)` | +8% | +12% | Improved rare terms |
+| **v4** | `size=115, sample=5e-5` | `Word2Vec(size=115, sample=5e-5)` | ±3% | +5% | Better term separation |
+| **Final** | `size=125, window=6, ns=0.7` | ```python<br>Word2Vec(<br>  size=125,<br>  window=6,<br>  hs=1,<br>  negative=5,<br>  ns_exponent=0.7,<br>  sample=1e-4,<br>  epochs=65<br>)``` | **+22%** | **+18%** | **Optimal balance** |
 
 # Word2Vec Parameter Optimization Rationale for HPO Terms
 
