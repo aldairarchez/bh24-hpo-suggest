@@ -65,6 +65,7 @@ Word2Vec(
     batch_words=15000,     # Memory efficiency
     compute_loss=True      # Training monitoring
 )
+```
 
 ## Parameter Tuning History
 
