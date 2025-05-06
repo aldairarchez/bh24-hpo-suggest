@@ -68,7 +68,7 @@ Word2Vec(
 ## Parameter Tuning History
 
 | Version | Key Changes                           | k=1 Improvement | k=3 Improvement | Notable Effects               |
-|---------|---------------------------------------|-----------------|-----------------|--------------------------------|
+|-|-|-|-|-|
 | Initial | Baseline (vector_size=100, window=5)  | -               | -               | Established starting point     |
 | v2      | Increased window=7, epochs=50         | +15% n=0        | +20% n=0        | Better context capture         |
 | v3      | Added hs=1, negative=5                | +8% overall     | +12% overall    | Improved rare term handling    |
