@@ -7,7 +7,7 @@ pip install scikit-learn
 pip install gensim
 ```
 # Step 2: download hpo.obo and add the script to analyze close terms (parent or children) 
-[hpo.py](https://github.com/aldairarchez/bh24-hpo-suggest/blob/main/models/word2vec/codes/hpo.py)
+[hpo.py](https://github.com/aldairarchez/bh24-hpo-suggest/blob/main/models/word2vec/codes/hpo.py) ->Same script as Co-ocurrence model
 ```
 wget https://github.com/obophenotype/human-phenotype-ontology/releases/latest/download/hp.obo
 ```
