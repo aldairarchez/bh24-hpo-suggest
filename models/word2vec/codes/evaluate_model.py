@@ -21,7 +21,7 @@ def predict_next_term(model, test_data, hpo, k_values):
         print(f"k={k}")
         print("n\texact\tclose\twrong")
 
-        for num_input_terms in range(8):  # Evaluating from 0 to 7 input terms
+        for num_input_terms in range(1, 8):  # Evaluating from 0 to 7 input terms
             exact_matches = 0
             close_matches = 0
             incorrect = 0
