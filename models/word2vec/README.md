@@ -12,7 +12,7 @@ wget https://github.com/obophenotype/human-phenotype-ontology/releases/latest/do
 ```
 # step 3️⃣: Train the Word2Vec Model
 
-Running the training script [train_model.py](https://github.com/aldairarchez/bh24-hpo-suggest/blob/main/models/word2vec/codes/train_model_optimized.py)
+Running the training script [train_model_optimized.py](https://github.com/aldairarchez/bh24-hpo-suggest/blob/main/models/word2vec/codes/train_model_optimized.py)
 ```
 ## correct command with optmized code
 python ./scripts/train_model_optimized.py ./Data/training_data1.txt hpo_word2vec.model
