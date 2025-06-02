@@ -4,20 +4,19 @@ python3 -m venv hpo_eval_env
 . hpo_eval_env/bin/activate
 pip install gensim pandas
 pip install scikit-learn
-```
-# Step 2: 1 install gensim
-```
 pip install gensim
+```
+# Step 2: download hpo.obo
+```
+wget https://github.com/obophenotype/human-phenotype-ontology/releases/latest/download/hp.obo
 ```
 # step 3️⃣: Train the Word2Vec Model
 
 Running the training script [train_model.py](https://github.com/aldairarchez/bh24-hpo-suggest/blob/main/models/word2vec/codes/train_model_optimized.py)
 ```
-#python ./scripts/train_model.py ./Data/training_data1.txt hpo_word2vec.model
-
-
 ## correct command with optmized code
 python ./scripts/train_model_optimized.py ./Data/training_data1.txt hpo_word2vec.model
+
 # python ./scripts/train_model_optimized.py ./Data/training_data2.txt hpo_word2vec.model #training 2
 # python ./scripts/train_model_optimized.py ./Data/training_data3.txt hpo_word2vec.model #training 3
 
@@ -25,7 +24,7 @@ python ./scripts/train_model_optimized.py ./Data/training_data1.txt hpo_word2vec
 # step 4️⃣: Use the Model for Predictions
 runing the evaluation script [evaluate_model.py](https://github.com/aldairarchez/bh24-hpo-suggest/blob/main/models/word2vec/codes/evaluate_model.py)
 ```
-python ./scripts/evaluate_model.py hpo_word2vec.model ./Data/test_data.txt
+python ./scripts/evaluate_model.py hpo_word2vec.model ./Data/test_data.txt ./scripts/hp.obo
 ```
 # Output example
 
